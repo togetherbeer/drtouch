@@ -1,6 +1,6 @@
 # drtouch
 
-Touch input library written in Ruby for DragonRuby GTK Pro.
+Touch input library written in Ruby for DragonRuby GTK!
 
 Portions of this library used by the developer (Rabia Alhaffar) to adapt his DragonRuby games to run on mobile platforms, Also the library supports touch emulation of one finger via mouse input.
 
