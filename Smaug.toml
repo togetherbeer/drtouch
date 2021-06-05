@@ -1,7 +1,7 @@
 [package]
 name = "drtouch"
 authors = ["Rabia Alhaffar <steria773@gmail.com>"]
-version = "0.0.1"
+version = "0.1.0"
 homepage = "https://github.com/Rabios/drtouch"
 keywords = [ "DragonRuby", "touch", "Android", "iOS", "library", "input", "Ruby" ]
 documentation = "https://github.com/Rabios/drtouch/blob/master/README.md"
