@@ -37,7 +37,7 @@ Check `samples` folder to see how drtouch works.
 All drtouch library functions exposed in class `DRTouch` and API made to be simple to use.
 
 ```rb
-# API
+# Functions
 init()                                      # Initializes drtouch library.
 update()                                    # Updates touches. 
 down(i)                                     # Returns true if finger by index held/exists on screen or false if not.
