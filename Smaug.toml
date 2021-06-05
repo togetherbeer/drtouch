@@ -2,7 +2,6 @@
 name = "drtouch"
 authors = ["Rabia Alhaffar <steria773@gmail.com>"]
 version = "0.0.1"
-icon = "metadata/icon.png"
 homepage = "https://github.com/Rabios/drtouch"
 keywords = [ "DragonRuby", "touch", "Android", "iOS", "library", "input", "Ruby" ]
 documentation = "https://github.com/Rabios/drtouch/blob/master/README.md"
@@ -10,5 +9,5 @@ repository = "http://github.com/Rabios/drtouch"
 requires = [ "smaug/drtouch/drtouch.rb" ]
 
 [dragonruby]
-version = "2"
-edition = "standard"
+version = "2.17"
+edition = "pro"
