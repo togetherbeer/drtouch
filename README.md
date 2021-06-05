@@ -6,7 +6,7 @@ Portions of this library used by the developer (Rabia Alhaffar) to adapt his Dra
 
 ## Setup
 
-> NOTE: drtouch requires DragonRuby Pro.
+> NOTE: drtouch requires "Pro" version of DragonRuby GTK!
 
 ### Without Smaug
 
