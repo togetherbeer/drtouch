@@ -1,6 +1,6 @@
 # Written by Rabia Alhaffar in June 5, 2021
 # Freaking-Simple example that illustrates how to handle multiple fingers with DragonRuby and drtouch!
-# NOTE: This is only example doesn't work with mouse input when using more than one finger...
+# REMINDER: When emulating with mouse, drtouch emulates only first finger...
 def tick args
   drtouch = DRTouch.new
   drtouch.init
