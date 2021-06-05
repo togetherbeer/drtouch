@@ -2,7 +2,7 @@
 
 Touch input library written in Ruby for DragonRuby GTK Pro.
 
-Portions of this library used by the developer (Rabia Alhaffar) to port his DragonRuby games to mobiles, Also the library supports touch emulation of one finger via mouse input.
+Portions of this library used by the developer (Rabia Alhaffar) to adapt his DragonRuby games to run on mobile platforms, Also the library supports touch emulation of one finger via mouse input.
 
 ## Setup
 
