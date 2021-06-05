@@ -103,10 +103,6 @@ class DRTouch
     return ({ x: p.x, y: p.y, w: 1, h: 1 }).intersect_rect?(r)
   end
   
-  def emulate
-    $gtk.args.state.drtouch.emulated = 1
-  end
-  
   def mobile
     return ($gtk.platform == "iOS" || $gtk.platform == "Android")
   end

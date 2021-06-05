@@ -49,7 +49,6 @@ pos(i)                                      # Returns position of a finger touch
 find(x, y)                                  # Returns finger index by position.
 touched_rect(i, rect)                       # Returns true if finger by index touches a rectangle on screen or false if not.
 mobile()                                    # Returns true if device is mobile or false if not.
-emulate()                                   # [INTERNAL] Emulates touch input via mouse.
 
 # Internals, Used within the library
 $gtk.args.state.drtouch.emulated            # State of touch emulation, 1 if emulated via mouse of 0 if on mobile.
@@ -57,8 +56,6 @@ $gtk.args.state.drtouch.current_touches     # Array of 1s and 0s of current touc
 $gtk.args.state.drtouch.touches_pos         # Array of touches positions.
 $gtk.args.state.drtouch.previous_touches    # Array of 1s and 0s of old touches state.
 ```
-
-> NOTE: Functions labeled with `[INTERNAL]` means you must not use them in code you write cause being called automatically.
 
 ## DEV NOTES:
 
