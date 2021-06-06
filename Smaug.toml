@@ -4,7 +4,7 @@ authors = ["Rabia Alhaffar <steria773@gmail.com>"]
 version = "0.1.0"
 homepage = "https://github.com/Rabios/drtouch"
 keywords = [ "DragonRuby", "touch", "Android", "iOS", "library", "input", "Ruby" ]
-documentation = "https://github.com/Rabios/drtouch/blob/master/README.md"
+documentation = "https://github.com/Rabios/drtouch/blob/main/README.md#API"
 repository = "http://github.com/Rabios/drtouch"
 requires = [ "smaug/drtouch/drtouch.rb" ]
 
