@@ -23,7 +23,7 @@ class DRTouch
         count += 1
       }
     
-      (10 - count).times.map do |i|
+      (10 - count).times.each do |i|
         $state.drtouch.current_touches[count + i] = 0
         $state.drtouch.touches_pos[count + i] = { x: -1, y: -1 }
       end
@@ -31,7 +31,7 @@ class DRTouch
       $state.drtouch.current_touches[0] = $gtk.inputs.mouse.button_left ? 1 : 0
       $state.drtouch.touches_pos[0] = { x: $gtk.inputs.mouse.x, y: $gtk.inputs.mouse.y }
       
-      9.times.map do |i|
+      9.times.each do |i|
         $state.drtouch.current_touches[1 + i] = 0
         $state.drtouch.touches_pos[1 + i] = { x: -1, y: -1 }
       end
@@ -69,7 +69,7 @@ class DRTouch
   def touches
     count = 0
     
-    $state.drtouch.current_touches.length.times.map do |t|
+    $state.drtouch.current_touches.length.times.each do |t|
       if $state.drtouch.current_touches[t] == 1
         count += 1
       end
@@ -89,7 +89,7 @@ class DRTouch
   end
   
   def find(x, y)
-    10.times.map do |i|
+    10.times.each do |i|
       tpos = pos(i)
     
       if ((tpos.x == x) && (tpos.y == y))
